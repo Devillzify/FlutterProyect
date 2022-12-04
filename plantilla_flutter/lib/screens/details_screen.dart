@@ -58,7 +58,7 @@ class _CustomAppBar extends StatelessWidget {
         background: FadeInImage(
           placeholder: AssetImage(
               'assets/loading.gif'), // cambiam els noms que venien definits per la seva variable de pelicula
-          image: NetworkImage(movie.fullPosterPath),
+          image: NetworkImage(movie.fullbackgroundpath),
           fit: BoxFit.cover,
         ),
       ),
